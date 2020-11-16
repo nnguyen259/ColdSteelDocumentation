@@ -1,21 +1,10 @@
-# Welcome to MkDocs
+# Welcome to Cold Steel Modding Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A place where all Trails of Cold Steel Modding Resources are gatherred.
 
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+If you are new to Cold Steel Modding visit [Getting Started](getting-started.md)
 
-## Commands
+For details on specific game, check out:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [Trails of Cold Steel](cs1/overview.md)
+* [Trails of Cold Steel 3](cs3/overview.md)

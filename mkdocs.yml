@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Cold Steel Modding Documentation
 theme:
   name: material
   
@@ -10,11 +10,16 @@ extra_css:
   
 nav:
   - Home: index.md
+  - Getting Started:
+    - Getting Started: getting-started.md
   - Cold Steel 1:
+    - Overview: cs1/overview.md
     - Table:
+      - Overview: cs1/tables/overview.md
       - t_item: cs1/tables/item.md
       - t_magic: cs1/tables/magic.md
-  - Cold Steel 2:
+  - Cold Steel 3:
+    - Overview: cs3/overview.md
     - Table:
-      - t_item: cs2/tables/item.md
-      - t_magic: cs2/tables/magic.md
+      - t_item: cs3/tables/item.md
+      - t_magic: cs3/tables/magic.md
