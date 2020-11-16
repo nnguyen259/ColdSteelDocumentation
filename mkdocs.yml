@@ -1,0 +1,20 @@
+site_name: My Docs
+theme:
+  name: material
+  
+  features:
+    - navigation.tabs
+  
+extra_css:
+  - stylesheets/extra.css
+  
+nav:
+  - Home: index.md
+  - Cold Steel 1:
+    - Table:
+      - t_item: cs1/tables/item.md
+      - t_magic: cs1/tables/magic.md
+  - Cold Steel 2:
+    - Table:
+      - t_item: cs2/tables/item.md
+      - t_magic: cs2/tables/magic.md
