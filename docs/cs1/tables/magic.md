@@ -1,21 +1,36 @@
-# Welcome to MkDocs
+# t_magic.tbl
+## Overview
+t_magic contains the information on all commands, arts and crafts in battle.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## EntryBody Structure
+```
+short       id
+short       character_restriction
+String      targetting_flags
 
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+short       category
+short       type
+short       element
 
-## Commands
+short       targetting_type
+short       targetting_range
+short       targetting_size
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Effect[2]   effects
 
-## Project layout
+byte        cast_delay
+byte        recovery_delay
+short       cost
+byte        unbalance_bonus
+byte        level_learn
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+short       sort_id
+
+String      name
+String      description
+```
+## EntryBody Details
+List details as needed.
+
+## Example
+Add example as needed.

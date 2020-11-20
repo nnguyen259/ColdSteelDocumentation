@@ -7,4 +7,4 @@ If you are new to Cold Steel Modding visit [Getting Started](getting-started.md)
 For details on specific game, check out:
 
 * [Trails of Cold Steel](cs1/overview.md)
-* [Trails of Cold Steel 3](cs3/overview.md)
+* Trails of Cold Steel 3

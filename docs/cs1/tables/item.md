@@ -46,14 +46,11 @@ String      description
 Stats are added to the items in the following order: STR, DEF, ATS, ADF, SPD, ACC, EVA, MOV, HP, EP.
 
 ### Effects
-#### Effect Structure
 ```
 byte    effect_id
 short   data1
 short   data2
 ```
-
-#### Details
 * Effect ID: Influence the effect the item will have. There are limitations on which effect is possible possibly depends on the item's category.
 * Effect Data: Each effect can have 0-2 additional data attached to it. Some data are optional, while some are not.
 
