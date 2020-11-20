@@ -20,11 +20,15 @@ Keep this in mind as you traverse the files searching for a number.
 ### Specific Terms Breakdown
 Throughout the documentation, certain terms will be used to describe certain things. Those terms are as followed:
 ```
-byte:   1 byte of data
-short:  2 bytes of data
-int:    4 bytes of data
-float:  4 bytes of data, in float format
+# Normal type
+byte:   1 byte of data.
+short:  2 bytes of data.
+int:    4 bytes of data.
+float:  4 bytes of data, in float format.
 String: A series of bytes until the \x00 (null) character is encountered.
+
+# Array
+type[length]:   Consecutive bytes of `type` that is `length` long.
 ```
 
 If another term is encountered, it will be explained in the same article.

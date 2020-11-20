@@ -1,15 +1,15 @@
 # Tables Overview
 
 ## General Structure
-``` java
-short       entry_num
-List<Entry> entries
+```
+short               entry_num
+Entry[entry_num]    entries
 ```
 
 `entry_num` shows the number of entries the table file has. Although the number of entries in entry_num can be different from the actual amount of entries, it is encouraged to keep these two in sync to allow for easier access with program later.
 
 ## Entry
-``` java
+```
 String      entry_title
 short       entry_length
 EntryBody   entry_body
