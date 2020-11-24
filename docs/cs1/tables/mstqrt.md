@@ -1,6 +1,7 @@
 # t_mstqrt.tbl
 ## Overview
 t_mstqrt contains the data on all Master Quartz in the game. It has three different types of entries:
+
 * MasterQuartzBase: General data about the Master Quartz. 
 * MasterQuartzData: Data for each Master Quartz level.
 * MasterQuartzMemo: Master Quartz texts.
