@@ -15,6 +15,7 @@ nav:
       - Overview: cs1/tables/overview.md
       - t_item: cs1/tables/item.md
       - t_magic: cs1/tables/magic.md
+      - t_mstqrt: cs1/tables/mstqrt.md
   - Cold Steel 3:
     - Overview: cs3/overview.md
     - Table:
