@@ -16,10 +16,7 @@ short   starting_level
 ### EntryBody Details
 Each Master Quartz has an item representation in t_item.tbl and the `item_id` points to that item. They are also sorted by their `sort_id`, with smaller goes on top.
 
-Finally, the starting level will determine how many entries of MasterQuartzBase there are, with the formula being:
-```
-(5 - starting_level) + 1
-```
+Finally, there will be five MasterQuartzData following the MasterQuartzBase.
 
 ## MasterQuartzData
 ### EntryBody Structure
