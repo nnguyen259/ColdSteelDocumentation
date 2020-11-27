@@ -42,7 +42,7 @@ Each level of Master Quartz can give up to two arts. They use the same art id as
 
 Finally, `memo_ids`. They determine which text will be displayed for the Master Quartz. The nine memos are in three sets of three, with one set per effect. The first one is the title, and the other two are details. If there is no need for a text, -1 is used instead of the `memo_id`
 
-The number of filled in `memo_ids` will determine how many MasterQuartzMemo there are.
+The highest ID in `memo_ids` determine how many MasterQuartzMemo there are. Remember that `memo_ids` are 0-index, so if highest ID is 9, there will be 10 entries.
 
 ## MasterQuartzMemo
 ### EntryBody Structure
